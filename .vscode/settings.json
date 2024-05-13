@@ -1,0 +1,25 @@
+{
+  // linter と formatter の設定
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll.eslint": "explicit"
+    // "source.fixAll.stylelint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // ESLint Flat Config を使用する
+  "eslint.experimental.useFlatConfig": true,
+
+  // "stylelint.stylelintPath": "node_modules/stylelint",
+
+  // TS バージョンを揃える
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "files.associations": {
+    // このファイルを JSON with Comments 認識させる
+    "**/.vscode/*.json": "jsonc"
+  },
+  "files.insertFinalNewline": true,
+  "git.ignoreLimitWarning": true
+}
