@@ -1,0 +1,30 @@
+{
+  "name": "@wakamsha/tsconfig-ii",
+  "version": "1.0.0",
+  "description": "wakamsha's generic tsconfig.",
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakamsha/tsconfig.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": "wakamsha <wakamsha@gmail.com> (https://twitter.com/wakamsha)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wakamsha/tsconfig/issues"
+  },
+  "homepage": "https://github.com/wakamsha/tsconfig#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "semantic-release": "23.1.1"
+  }
+}
