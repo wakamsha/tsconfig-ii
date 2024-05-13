@@ -5,6 +5,12 @@
   "engines": {
     "node": ">= 20.0.0"
   },
+  "files": [
+    "LICENSEE",
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ],
   "scripts": {
     "release": "semantic-release"
   },
