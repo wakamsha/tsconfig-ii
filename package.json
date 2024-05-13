@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/wakamsha/tsconfig/issues"
   },
-  "homepage": "https://github.com/wakamsha/tsconfig#readme"
+  "homepage": "https://github.com/wakamsha/tsconfig#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "semantic-release": "23.1.1"
+  }
 }
