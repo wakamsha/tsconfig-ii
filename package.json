@@ -1,6 +1,7 @@
 {
   "name": "@wakamsha/tsconfig-ii",
   "version": "1.0.0",
+  "private": true,
   "description": "wakamsha's generic tsconfig.",
   "engines": {
     "node": ">= 20.12.0"
