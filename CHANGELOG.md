@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/wakamsha/tsconfig-ii/compare/v2.0.0...v2.1.0) (2024-05-13)
+
+
+### Features
+
+* Specify sourceMap field in tsconfig ([#6](https://github.com/wakamsha/tsconfig-ii/issues/6)) ([be225d3](https://github.com/wakamsha/tsconfig-ii/commit/be225d39a076baaba28e265954de4bce497b2f9c))
+
 # [2.0.0](https://github.com/wakamsha/tsconfig-ii/compare/v1.0.0...v2.0.0) (2024-05-13)
 
 
