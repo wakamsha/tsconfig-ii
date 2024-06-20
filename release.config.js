@@ -6,11 +6,13 @@ module.exports = {
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    "@semantic-release/github",
     "@semantic-release/npm",
     [
       "semantic-release-github-pullrequest",
       {
         assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
+        baseRef: "main",
       },
     ],
     // [
@@ -19,6 +21,5 @@ module.exports = {
     //     assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
     //   },
     // ],
-    "@semantic-release/github",
   ],
 };
