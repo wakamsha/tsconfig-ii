@@ -39,7 +39,7 @@ jobs:
         with:
           extra_plugins: |
             semantic-release-github-pullrequest
-          branch: main
+          branch: release
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
