@@ -4,6 +4,7 @@
     "module": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "strict": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true
   }
 }
