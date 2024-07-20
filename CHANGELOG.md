@@ -1,3 +1,20 @@
+# [3.0.0](https://github.com/wakamsha/tsconfig-ii/compare/v2.2.0...v3.0.0) (2024-07-20)
+
+
+### Bug Fixes
+
+* GitHub Action workflow ([#13](https://github.com/wakamsha/tsconfig-ii/issues/13)) ([802fb69](https://github.com/wakamsha/tsconfig-ii/commit/802fb69b6f95550f1c539309225a345ff4088d8b))
+
+
+### Continuous Integration
+
+* Release Config ([#12](https://github.com/wakamsha/tsconfig-ii/issues/12)) ([12b32ee](https://github.com/wakamsha/tsconfig-ii/commit/12b32ee388dab9636ffd80de4a087e6bb719ffd7))
+
+
+### BREAKING CHANGES
+
+* ci: Release Config
+
 # [2.1.0](https://github.com/wakamsha/tsconfig-ii/compare/v2.0.0...v2.1.0) (2024-05-13)
 
 
