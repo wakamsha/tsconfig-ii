@@ -3,18 +3,24 @@
  */
 module.exports = {
   plugins: [
-    // "@semantic-release/commit-analyzer",
-    // "@semantic-release/release-notes-generator",
     [
       "@semantic-release/commit-analyzer",
       {
-        preset: "conventionalcommits",
+        // This method is not working. The reason is not clear.
+        // preset: "conventionalcommits",
+        parserOpts: {
+          // see: https://github.com/semantic-release/commit-analyzer/issues/231#issuecomment-1242113093
+          breakingHeaderPattern: /^(\w*)(?:\((.*)\))?!: (.*)$/,
+        },
       },
     ],
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "conventionalcommits",
+        parserOpts: {
+          // see: https://github.com/semantic-release/commit-analyzer/issues/231#issuecomment-1242113093
+          breakingHeaderPattern: /^(\w*)(?:\((.*)\))?!: (.*)$/,
+        },
       },
     ],
     "@semantic-release/changelog",
