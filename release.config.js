@@ -3,18 +3,22 @@
  */
 module.exports = {
   plugins: [
-    // "@semantic-release/commit-analyzer",
-    // "@semantic-release/release-notes-generator",
     [
       "@semantic-release/commit-analyzer",
       {
-        preset: "conventionalcommits",
+        // preset: "conventionalcommits",
+        parserOpts: {
+          breakingHeaderPattern: /^(\w*)(?:\((.*)\))?!: (.*)$/,
+        },
       },
     ],
     [
       "@semantic-release/release-notes-generator",
       {
-        preset: "conventionalcommits",
+        // preset: "conventionalcommits",
+        parserOpts: {
+          breakingHeaderPattern: /^(\w*)(?:\((.*)\))?!: (.*)$/,
+        },
       },
     ],
     "@semantic-release/changelog",
